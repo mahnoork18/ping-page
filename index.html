@@ -17,9 +17,9 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <main class="container">
     <div class="brand-name">
-      <img src="./images/logo.svg" alt="brand-name">
+      <img src="./images/logo.svg" alt="ping">
     </div>
     <div class="content">
     <div class="main-heading">
@@ -32,9 +32,10 @@
     </div>
     <div class="form-elements">
       <form id="form">
+        <label for="email" aria-label="email"></label>
         <input type="email" placeholder="Your email address..." name="email">
         
-        <button id="cta">
+        <button id="cta" type="submit">
           Notify Me
         </button>
         <p class="error"></p>
@@ -43,15 +44,8 @@
     <div class="dashboard-img">
       <img src="./images/illustration-dashboard.png" alt="dashboard-img">
     </div>
-    <div class="social-icons">
-      <i class="fab fa-facebook-f"></i>   
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-instagram"></i>
-     </div>
-    <div class="copyright">
-      <h5>  &copy; Copyright Ping. All rights reserved</h5>
-    </div>
-  </div>
+  
+</main>
 <!--
   We are launching soon!
 
@@ -62,6 +56,19 @@
   &copy; Copyright Ping. All rights reserved.-->
 
   <footer>
+    <div class="footer">
+    <div class="social-icons">
+      <ul>
+      <a href="#"><i class="fab fa-facebook-f"></i> </a>  
+      <a hre
+      f="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      </ul>
+     </div>
+    <div class="copyright">
+      <h5>  &copy; Copyright Ping. All rights reserved</h5>
+    </div>
+    </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Mahnoor Khan</a>.
